@@ -1,0 +1,7 @@
+database:
+  playerData:
+    host: "localhost"
+    user: "root"
+    password: "pB6[L6g(p9]tJd!"
+    dbName: "s498165_playerDATA"
+    port: 3306

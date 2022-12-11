@@ -1,0 +1,19 @@
+name: HeavenMC
+version: '${project.version}'
+main: org.heavenmc.heavenmc.MainClass
+api-version: 1.19
+authors: [ HeavenMCTeam ]
+description: HeavenMC
+
+depend: [PlaceholderAPI]
+
+commands:
+  fly:
+    permission: server.fly
+    description: Permission de voler partout ou vous le souhaiter
+  discord:
+    permission: discord.use
+  forum:
+    permission: forum.use
+  reseaux:
+    permission: reseaux.use
