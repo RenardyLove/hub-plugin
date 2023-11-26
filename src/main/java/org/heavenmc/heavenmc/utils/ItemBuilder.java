@@ -18,15 +18,15 @@ public class ItemBuilder {
 
 
     /**
-     createItem is for create an item.
-     @param material for choose your material.
-     @param name for choose the name of your item.
-     @param number for choose the number of your item.
-     @param lore for add a lore.
-     @param unbreakble your item is unbreakable.
+     createItem to create an item.
+     @param material to choose your material.
+     @param name to choose the name of your item.
+     @param number to choose the number of your item.
+     @param lore to add a lore.
+     @param unbreakble make your item is unbreakable.
      @param enchantment add enchantement.
-     @param hideEnchant for choose if your item hide or show enchantment.
-     @param numberOfYourEnchantment for choose the number of your enchantment.
+     @param hideEnchant to choose if your item hide or show enchantment.
+     @param numberOfYourEnchantment to choose the number of your enchantment.
      */
     public static ItemStack createItem(Material material, String name, int number, List<String> lore, boolean unbreakble, Enchantment enchantment, int numberOfYourEnchantment, boolean hideEnchant) {
 
