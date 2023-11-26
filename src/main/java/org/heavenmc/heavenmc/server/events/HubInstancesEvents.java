@@ -35,12 +35,12 @@ public class HubInstancesEvents implements Listener {
         e.setFoodLevel(20);
     }
     @EventHandler
-    public void onHunger(EntityDamageEvent e)
+    public void onDamage(EntityDamageEvent e)
     {
         e.setCancelled(true);
     }
     @EventHandler
-    public void onHunger(EntityRegainHealthEvent e)
+    public void onHealthUP(EntityRegainHealthEvent e)
     {
         if(e.getEntity() instanceof Player)
         {
@@ -174,7 +174,7 @@ public class HubInstancesEvents implements Listener {
      */
     private void giveHotbarItems(Player player)
     {
-        List<String> lore = new ArrayList<>();
+        List<String> lore = new ArrayList<>(); //Pas très optimisé tout ça
 
         lore.add(" ");
         lore.add("§7En un seul clique");
